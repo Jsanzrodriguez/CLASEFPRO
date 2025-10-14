@@ -13,6 +13,7 @@ public class Entrada {
         Operaciones operacionesMatematicas = new Operaciones();
         operacionesMatematicas.sumar(1,5);
         operacionesMatematicas.restar(5,2);
+        operacionesMatematicas.sumar(2,7);
 
     }
     public static void saludar(String nombre){
