@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Ejercicio {
 
-    public void ejercicio(){
+    private Scanner lecturaTeclado;
+
+    public void ejercicio1(){
+        lecturaTeclado = new Scanner(System.in);
 
 
 
@@ -8,7 +13,7 @@ public class Ejercicio {
 
 
 
-        
+
     }
 
 
