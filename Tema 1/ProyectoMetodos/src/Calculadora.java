@@ -1,4 +1,4 @@
-public class Operaciones {
+public class Calculadora {
     // main??
     // variables
     // metodos
@@ -8,6 +8,7 @@ public class Operaciones {
        System.out.println("El resultado de la suma es "+resultado);
 
    }
+
    public static void restar(int op1, int op2) {
        int resultado= op1-op2;
        System.out.println("El resultado de la resta es "+resultado);
@@ -15,7 +16,11 @@ public class Operaciones {
    public int multiplicar(int op1, int op2){
        int resultado = op1*op2;
        System.out.println("El metodo esta listo para retornar");
-        return numeroValidar>0;
+        return resultado;
+   }
+   public boolean validarNumero(int numeroValidar){
+       return numeroValidar>0;
+
    }
 
 

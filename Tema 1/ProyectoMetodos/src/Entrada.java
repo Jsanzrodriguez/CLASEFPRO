@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Entrada {
 
@@ -9,11 +9,18 @@ public class Entrada {
         despedir();
         saludar("Jorge");
         despedir();
-        Operaciones.sumar(4,4);
-        Operaciones operacionesMatematicas = new Operaciones();
+        Calculadora.sumar(4,4);
+        Calculadora operacionesMatematicas = new Calculadora();
         operacionesMatematicas.sumar(1,5);
         operacionesMatematicas.restar(5,2);
         operacionesMatematicas.sumar(2,7);
+        operacionesMatematicas.multiplicar(7,3);
+        System.out.println(operacionesMatematicas.multiplicar(7,3)*4);
+        Scanner lectorTeclado = new Scanner(System.in);
+        System.out.println("Que numero quieres validar ");
+        int numeroValidar = lectorTeclado.nextInt();
+        System.out.println("El numero que se intenta validar tiene como resultado "
+                +operacionesMatematicas.validarNumero(60));
 
     }
     public static void saludar(String nombre){
