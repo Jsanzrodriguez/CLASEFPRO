@@ -4,6 +4,7 @@ public class Main {
         Ejercicio nombreVariable = new Ejercicio();
        // nombreVariable.ejercicio1();
         nombreVariable.ejercicio4();
+        nombreVariable.ejercicio3();
 
 
 

@@ -29,6 +29,21 @@ public class Ejercicio {
         System.out.printf("El precio por persona es %.2f%n ", precioPersona);
         lecturaTeclado.close();
     }
+        public void ejercicio3(){
+        Scanner scanner =new Scanner(System.in);
+            System.out.println("Indica un numero de 5 digitos");
+            int numeroAnalizar = scanner.nextInt();
+            if(numeroAnalizar>9999 && numeroAnalizar<100000){
+                int decenasMil = numeroAnalizar/10000;
+                int unidadesMil = (numeroAnalizar%10000)/1000;
+                int centenas =((numeroAnalizar%10000)%1000)/100;
+                int decena = (((numeroAnalizar%10000)%1000)%100)/10;
+                int unidades = (((numeroAnalizar%10000)%1000)%100)%10;
+
+            } else{
+                System.out.println("Numero incorrecto");}
+            
+        }
 
         public void ejercicio4(){
         lecturaTeclado = new Scanner(System.in);
@@ -40,11 +55,6 @@ public class Ejercicio {
             System.out.println("El numero de horas es " +horas);
             System.out.println("El numero de minutos es " +minutos);
             System.out.println("El numero de segundos es " +segundos);
-
-
-
-
-
 
 
         lecturaTeclado.close();
