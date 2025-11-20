@@ -1,6 +1,6 @@
 public class Operaciones {
 
-    
+
     public void evaluarServidor(String estado){
         //200 -> OK
         //400 -> ok pero la pagina no esta disponible
