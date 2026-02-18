@@ -3,7 +3,7 @@ import model.Alumno;
 import java.util.ArrayList;
 import java.util.function.BiFunction;
 
-public class Main {
+public class MainPruebas {
     public static void main(String[] args){
         ArrayList<Alumno> alumnos = new ArrayList<>();
         Alumno alumno1 = new Alumno("Jorge","Sanz","1234A",8 );
